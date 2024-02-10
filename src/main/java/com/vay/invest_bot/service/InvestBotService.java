@@ -5,4 +5,7 @@ import com.vay.invest_bot.exception.ServiceException;
 public interface InvestBotService {
     String getUSD() throws ServiceException;
     String getEUR() throws ServiceException;
+
+    void clearUSDCache();
+    void clearEURCache();
 }
