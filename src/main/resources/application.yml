@@ -1,5 +1,5 @@
 bot:
-  token: 6546954800:AAFLC_qKOiZPK4pDG7c-vlbN7ZEWZNKmXBU
+  token: ${TOKEN}
 cbr:
   xml:
-    url: http://www.cbr.ru/scripts/XML_daily.asp
+    url: ${CBR_URL}
